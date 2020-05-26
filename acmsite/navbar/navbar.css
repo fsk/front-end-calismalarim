@@ -1,0 +1,29 @@
+.hakkimizda{
+    border-left: 2px solid white;
+    padding: 10px !important;
+}
+
+.hakkimizda:hover{
+    background: #201C29;
+    transition: .25s;
+    
+}
+
+.cv{
+    border-left: 2px solid white;
+    padding: 10px;
+}
+.cv:hover{
+    background: #201C29;
+    
+}
+
+.projeler{
+    border-left: 2px solid white;
+    padding: 10px;
+}
+
+.projeler:hover{
+    background: #201C29;
+}
+

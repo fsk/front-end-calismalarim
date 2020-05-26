@@ -1,0 +1,225 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'K2D', sans-serif;
+    background-color:#1c690d;
+    animation: mainscreen 9s linear infinite alternate;
+    /*background-image: url(1.jpg);*/
+}
+
+/*@keyframes mainscreen{
+    0%{
+        background-image: url(blog-estrella.jpg);
+    }
+    12.5%{
+        background-image: url(indir.jpg);
+    }
+    25%{
+        background-image: url(images.jpg);
+    }
+    37.5%{
+        background-image: url(estrellas.jpg);
+    }
+    50%{
+        background-image: url(thumb-1920-548431.jpg);
+    }
+    62.5%{
+        background-image: url(1.jpg);
+    }
+    75%{
+        background-image: url(2.jpg);
+    }
+    87.5%{
+        background-image: url(3.jpg);
+    }
+    100%{
+        background-image: url(4.jpg);
+    }
+
+}*/
+
+@keyframes mainscreen{
+    0%{
+        background-color: #074882;
+    }
+    12.5%{
+        background-color: #040E40;
+    }
+    25%{
+        background-color: #3B2340;
+    }
+    37.5%{
+        background-color: #020B1C;
+    }
+    50%{
+        background-color: #050319;
+    }
+    62.5%{
+        background-color: #02255F;
+    }
+    75%{
+        background-color: #1c1724;
+    }
+    87.5%{
+        background-color: #0d1392;
+    }
+    100%{
+        background-color: #261420;
+    }
+}
+
+.box{
+     
+    background-color:#112da8;
+    width: 300px;
+    padding: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    border-radius: 45px;
+    border: 5px solid white;
+    /*animation: boxborderscreen 7.5s linear infinite alternate;*/
+}
+
+/*@keyframes boxborderscreen{
+    0%{
+        border: 1px solid;
+        border-color: #FFA500; 
+    }
+    12.5%{
+        border: 1px solid;
+        border-color: #BFFF00; 
+    }
+    0%{
+        border: 1px solid;
+        border-color: rgb(221, 144, 0); 
+    }
+    0%{
+        border: 1px solid;
+        border-color: rgb(12, 228, 145); 
+    }
+    0%{
+        border: 1px solid;
+        border-color: rgb(82, 103, 219); 
+    }
+    0%{
+        border: 1px solid;
+        border-color: rgb(7, 161, 58); 
+    }
+    0%{
+        border: 1px solid;
+        border-color: rgb(206, 5, 212); 
+    }
+    0%{
+        border: 1px solid;
+        border-color: rgb(130, 24, 145); 
+    }
+}*/
+
+
+.box h2{
+    color: white;
+    text-align: center;
+    font-weight: 700;
+    font-size: 30px;
+    letter-spacing: 0.2cm;
+    font: bold;
+}
+
+.box h6{
+    color: white;
+    font-size: 12px;
+    transition: color 1s;
+}
+
+.box h6:hover{
+    color: red;
+}
+
+
+
+.box input[type="text"], .box input[type="password"]{
+    border:0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid orange;
+    padding: 14px 10px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: 0.25s;
+}
+
+.box input[type="text"]:focus, .box input[type="password"]:focus{
+    width:280px;
+    border-color: #2ecc71;
+}
+
+.box input[type="submit"]{
+    border:0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid orange;
+    padding: 14px 10px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: 0.25s;
+    cursor: pointer;
+}
+
+.box input[type="submit"]:hover{
+    background-color: #2eec71;
+}
+
+.giris{
+    margin-bottom: 10px;
+    display: inline-block;
+    position: absolute;
+    margin-left: 20px;
+}
+
+.box h2{
+    animation: h2screen 3s linear infinite alternate;
+}
+
+@keyframes h2screen{
+    0%{
+        color: #FFA500; 
+    }
+    0%{
+        color: #BFFF00;; 
+    }
+    0%{
+        color: rgb(221, 144, 0);
+    }
+    0%{
+        color: rgb(12, 228, 145) 
+    }
+    0%{
+        color: rgb(82, 103, 219); 
+    }
+    0%{
+        color: rgb(7, 161, 58); 
+    }
+    0%{
+        color:   rgb(122, 193, 219);
+    }
+    0%{
+        color: rgb(206, 5, 212);  
+    }
+    0%{
+        color: #FFA500; 
+    }
+    0%{
+        color:  rgb(130, 24, 145); 
+    }
+
+
+}

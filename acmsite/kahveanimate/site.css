@@ -1,0 +1,72 @@
+body {
+    background-color: #0B257C;
+}
+
+/*.anabaslik{
+    display: inline-block;
+    border: 1px solid blue;
+
+}*/
+
+/*.sekmeler{
+    
+    display: inline-block;
+    width: 1440px;
+    background-image: url(arkaplanbaslik2.png);
+    background-repeat: repeat;
+    background-attachment: scroll;
+    background-color: white;
+    background-position: top-left;
+}*/
+
+/*.yaziyerleri{
+    list-style: none outside none;
+    position: auto;
+    text-align: center;
+    color: white;
+    font-family: monospace;
+    font-size: 15px;
+    float: none;
+}*/
+
+
+/*nav > li{
+    position: relative;
+    display: inline;
+    margin: 20px;
+    
+}*/
+
+/*.sgi:hover{
+    font-size: 17px;
+    font-weight: bold;
+}
+.yz:hover{
+    font-size: 17px;
+    font-weight: bold;
+}
+.mobil:hover{
+    font-size: 17px;
+    font-weight: bold;
+}
+.web:hover{
+    font-size: 17px;
+    font-weight: bold;
+}
+.op:hover{
+    font-size: 17px;
+    font-weight: bold;
+}
+.sg:hover{
+    font-size: 17px;
+    font-weight: bold;
+}
+.pd:hover{
+    font-size: 17px;
+    font-weight: bold;
+}*/
+
+#container{
+    animation: 5s infinite;
+}
+

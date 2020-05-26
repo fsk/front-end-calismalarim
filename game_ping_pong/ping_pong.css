@@ -1,0 +1,11 @@
+body{
+    align-items: center;
+}
+
+canvas{
+    align-items: center;
+    border: 1px solid #000000;
+    margin-top: 20px;
+    width: 600px;
+    height: 400px;
+}
